@@ -6,7 +6,7 @@
     "email": "anuragksv10[at]gmail[dot]com",
     "phone": "",
     "url": "",
-    "summary": "A seeker and a builder at the intersection of science and technology, striving to create real-world impact.",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
@@ -89,64 +89,6 @@
       "highlights": []
     }
   ],
-  "projects": [
-  {
-    "name": "High-Speed Quantum Random Number Generator (QRNG)",
-    "summary": "Developed a modular QRNG system using delayed self-heterodyne measurement, coupled with GPU-accelerated post-processing for randomness extraction.",
-    "highlights": [
-      "Achieved 19.5 Gbps extraction rate suitable for Quantum Key Distribution",
-      "Implemented randomness extraction on HPC with NVIDIA CUDA",
-      "Validated with NIST SP 800-22 & Diehard test suites"
-    ],
-    "startDate": "2023-08",
-    "endDate": "2024-05",
-    "url": ""
-  },
-  {
-    "name": "Study on Quantum Computing Operators, Protocols & Applications",
-    "summary": "Explored core quantum paradigms and built a Python package for rapid simulation and testing.",
-    "highlights": [
-      "Simulated teleportation, superdense coding & Grover's algorithm on IBM Qiskit",
-      "Developed 'qulib', a custom Python package for quick quantum simulations"
-    ],
-    "startDate": "2022-01",
-    "endDate": "2022-04",
-    "url": ""
-  },
-  {
-    "name": "NBA Match Analysis",
-    "summary": "Created a Python-based analytical tool to evaluate player performance using custom metrics.",
-    "highlights": [
-      "Designed Player Contribution Metric inspired by PER and Box +/-",
-      "Generated visual snapshots of individual player impact in games"
-    ],
-    "startDate": "2021-05",
-    "endDate": "2021-06",
-    "url": ""
-  },
-  {
-    "name": "WhatsApp Web Automate",
-    "summary": "Built a Python automation tool to message multiple WhatsApp users without saving contacts.",
-    "highlights": [
-      "Enabled secure, fast event communication without third-party integrations",
-      "Saved significant time in outreach for workshops & events"
-    ],
-    "startDate": "2020-10",
-    "endDate": "2020-11",
-    "url": ""
-  },
-  {
-    "name": "Dynamic Fine Calculation",
-    "summary": "Designed a C++ prototype for traffic fine calculation based on offender's violation history.",
-    "highlights": [
-      "Proposed fair penalty system incorporating past offenses",
-      "Developed proof-of-concept prototype demonstrating policy logic"
-    ],
-    "startDate": "2019-08",
-    "endDate": "2019-09",
-    "url": ""
-  }
-],
   "publications": [
     {
       "name": "Potential Energy Surface Scan of n-Butane Using Various Quantum Chemistry Software",
@@ -474,6 +416,64 @@
       "Video Editing",
       "Basketball"
     ]
+  }
+],
+"projects": [
+  {
+    "name": "High-Speed Quantum Random Number Generator (QRNG)",
+    "summary": "Developed a modular QRNG system using delayed self-heterodyne measurement, coupled with GPU-accelerated post-processing for randomness extraction.",
+    "highlights": [
+      "Achieved 19.5 Gbps extraction rate suitable for Quantum Key Distribution",
+      "Implemented randomness extraction on HPC with NVIDIA CUDA",
+      "Validated with NIST SP 800-22 & Diehard test suites"
+    ],
+    "startDate": "2023-08",
+    "endDate": "2024-05",
+    "url": ""
+  },
+  {
+    "name": "Study on Quantum Computing Operators, Protocols & Applications",
+    "summary": "Explored core quantum paradigms and built a Python package for rapid simulation and testing.",
+    "highlights": [
+      "Simulated quantum teleportation, superdense coding & Grover's algorithm on IBM Qiskit",
+      "Developed 'qulib', a custom Python package for quick quantum simulations"
+    ],
+    "startDate": "2022-01",
+    "endDate": "2022-04",
+    "url": "https://github.com/anuragksv/QuantumLibrary"
+  },
+  {
+    "name": "NBA Match Analysis",
+    "summary": "Created a Python-based analytical tool to evaluate player performance using custom metrics.",
+    "highlights": [
+      "Designed Player Contribution Metric inspired by PER and Box +/-",
+      "Generated visual snapshots of individual player impact in games"
+    ],
+    "startDate": "2021-05",
+    "endDate": "2021-06",
+    "url": "https://github.com/anuragksv/NBA-Analysis"
+  },
+  {
+    "name": "WhatsApp Web Automate",
+    "summary": "Built a Python automation tool to message multiple WhatsApp users without saving contacts.",
+    "highlights": [
+      "Enabled secure, fast event communication without third-party integrations",
+      "Saved significant time in outreach for workshops & events"
+    ],
+    "startDate": "2020-10",
+    "endDate": "2020-11",
+    "url": "https://github.com/anuragksv/Whatsapp_Web_Automate"
+  },
+  {
+    "name": "Dynamic Fine Calculation",
+    "summary": "Designed a C++ prototype for traffic fine calculation based on offender's violation history.",
+    "highlights": [
+      "Proposed fair penalty system incorporating past offenses",
+      "Developed proof-of-concept prototype demonstrating policy logic"
+    ],
+    "startDate": "2019-08",
+    "endDate": "2019-09",
+    "url": "https://github.com/anuragksv/Dynamic-Fine-Calculation"
   }
 ]
 }

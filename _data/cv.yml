@@ -2,96 +2,196 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Anurag K S V
+    - name: Email
+      value: anuragksv10[at]gmail[dot]com
     - name: Languages
-      value: English, German
+      value: English, Hindi, Telugu, Japanese(Basic)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Technology in Quantum Computing (Specialization in Quantum Communication & Sensing)
+      institution: Defence Institute of Advanced Technology (DIAT), Pune, India
+      year: 2022 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - CGPA - 9.05/10
+        - Specialization in quantum communication, metrology, and sensing.
+    - title: Bachelor of Technology in Computer Science & Engineering
+      institution: Gandhi Institute of Technology and Management (GITAM), Visakhapatnam, India
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA - 9.06/10
+        - Core focus in computer science foundations, algorithms, and software engineering.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Quantum Analyst
+      institution: Qclairvoyance Quantum Labs Pvt. Ltd., Hyderabad, India
+      year: Jul '24 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Driving R&D in quantum computing algorithms for utility-scale software solutions
+        - Developing approaches to demonstrate potential quantum advantage
+    - title: Business Data Analyst
+      institution: Hexawel Healthcare LLP, Hyderabad, India
+      year: Aug '21 - Jul '22
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Optimized healthcare supply chain operations by digitizing workflows
+        - Built dashboards and forecasting systems improving analytics and decision-making
+    - title: Data Analyst Intern
+      institution: Hexawel Healthcare LLP, Hyderabad, India
+      year: Jun '21 - Jul '21
       description:
+        - Contributed to data digitization and analytics projects
+        - Processed, reported, and documented system improvements
+    - title: Summer Intern
+      institution: Trinity Consultants - Aztec Technologies Inc., Hyderabad, India
+      year: May '19 - Jun '19
+      description:
+        - Gained exposure to industrial automation workflows and documentation
+        - Assisted in software tool evaluation and project support
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Potential Energy Surface Scan of n-Butane Using Various Quantum Chemistry Software
+      institution: Authorea (Preprint)
+      year: Jul 2025
+      description: https://doi.org/10.22541/au.174624847.78353339/v2
+    - title: FPGA-based Toeplitz Strong Extractor for Quantum Random Number Generators
+      institution: IEEE INDISCON 2024
+      year: Aug 2024
+      description: https://doi.org/10.1109/INDISCON62179.2024.10744392
+    - title: High-efficiency implementation of Toeplitz Strong Extractor for PRNG and QRNG output on CPU/GPU hardware systems
+      institution: Physica Scripta
+      year: Jun 2024
+      description: https://doi.org/10.1088/1402-4896/ad587f
+    - title: Development of a High-Speed Quantum Random Number Generator Harvesting Quantum Phase Fluctuations
+      institution: ICQTA-24 (Poster)
+      year: Feb 2024
+      description: http://doi.org/10.13140/RG.2.2.22320.98569
+    - title: Temporal and Correlational Analysis of Air Pollution and Covid-19 Across Major Metropolis in India
+      institution: IJITEE
+      year: Oct 2022
+      description: http://doi.org/10.35940/ijitee.K9277.10111122
 
-- title: Honors and Awards
+- title: Certificates
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Qiskit Global Summer School 2024
+      institution: IBM Quantum
+      year: 2024
+    - title: ICONS2023 - Quantum Technologies
+      institution: IIT Bombay
+      year: 2023
+    - title: Quantum Computing using QSim
+      institution: CDAC
+      year: 2023
+    - title: FPGA-based Post-Processing for QKD Systems
+      institution: SETS
+      year: 2023
+    - title: SOLID Software Design Principles
+      institution: Pluralsight
+      year: 2020
+    - title: Google Cloud Platform Fundamentals
+      institution: Google Cloud via Coursera
+      year: 2020
 
-- title: Academic Interests
-  type: nested_list
+- title: Awards
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Certificate of Excellence
+      institution: Directorate of Sports, GITAM
+      year: 2021
+      description: For contributions as a Student Sports Associate (2020-21)
+    - title: Merit Scholarship
+      institution: GITAM School of Technology
+      year: 2020
+      description: Awarded for Semester 4 (Top 5% of CSE Department)
 
-- title: Other Interests
+- title: Volunteer Work
+  type: time_table
+  contents:
+    - title: Student Sports Associate (SSA)
+      institution: Directorate of Sports, GITAM
+      year: 2020 - 2022
+      description:
+        - Coordinated 100+ campus sports events with 13,500+ participants
+        - Established sustainable student organizations & recruitment procedures
+    - title: Core Member
+      institution: IEEE Computer Society
+      year: 2019 - 2021
+      description:
+        - Contributed to content creation and chapter administration
+        - Enhanced technical outreach & community engagement
+    - title: Vice-President (Creative Arts)
+      institution: Kalakrithi Cultural Club, GITAM
+      year: 2018 - 2020
+      description:
+        - Led ideation and execution of creative arts events
+        - Boosted cultural footprint across student community
+    - title: Content Writer & Event Manager
+      institution: GUSAC (GITAM University Science And Activity Centre)
+      year: 2019 - 2020
+      description:
+        - Managed content creation and organized STEM outreach events
+    - title: Public Relations Executive
+      institution: Google Developer Student Club, GITAM
+      year: 2019 - 2020
+      description:
+        - Handled PR & outreach for tech events increasing student participation
+
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Core Programming - C, C++, Python, Java, SQL
+    - Web Technologies - HTML5, CSS3, JavaScript, React, Flask, FastAPI, Celery, RabbitMQ, PostgreSQL, MongoDB, Selenium, PyTest, OAuth
+    - AI Automation - API, Local AI, GPT, Grok, Ollama
+    - Quantum Computing - Qiskit, Cirq, PennyLane, CUDA-Q
+    - Accelerated Computing - NumPy, Pandas, Numba, CuPy, OpenMP, Nvidia CUDA
+    - Computational Chemistry - PySCF, Psi4, Gaussian, AmberTools, GROMACS
+    - Business Intelligence - Looker Studio, Power BI, Matplotlib, Seaborn, Plotly
+    - Hardware Description & Simulation - VHDL, SystemVerilog, Xilinx Vivado, MATLAB
+    - Cloud & DevOps - Docker, Docker Compose, AWS, GCP
+    - Operating Systems - Linux (Ubuntu, CentOS), WSL2, Windows
+    - Development Tools - Git, LaTeX, Visual Studio, Windsurf, Cursor
+    - Creative & Design - Canva, GIMP, DaVinci Resolve
+
+- title: Interests
+  type: list
+  contents:
+    - Science - Quantum Computation & Algorithms, Quantum Communication & Sensing, Quantum Mechanics Foundations, Grand Unified Theory Candidates
+    - Technology - AI Automation, Systems Design & Architecture, End-to-end Product Development, CPU/GPU Compute Infrastructure
+    - Business & Finance - R&D Commercialization, Technology Adoption, Investment Strategy, Market Analysis
+    - Content & Sports - Writing, Public Speaking, Social Media Design, Video Editing, Basketball
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: High-Speed Quantum Random Number Generator (QRNG)
+      year: 2023 - 2024
+      description:
+        - Developed modular QRNG system using delayed self-heterodyne measurement
+        - Achieved 19.5 Gbps extraction rate with GPU-accelerated randomness extraction
+        - Validated with NIST SP 800-22 & Diehard test suites
+    - title: Study on Quantum Computing Operators, Protocols & Applications
+      year: 2022
+      description:
+        - Built "qulib", a Python package for quick quantum simulations
+        - Simulated quantum teleportation, superdense coding, and Grover’s algorithm
+    - title: NBA Match Analysis
+      year: 2021
+      description:
+        - Created analytical tool evaluating player performance using custom metrics
+        - Designed "Player Contribution Metric" inspired by PER and Box +/-
+    - title: WhatsApp Web Automate
+      year: 2020
+      description:
+        - Developed Python automation tool to message multiple users without saving contacts
+        - Used for secure, fast outreach during workshops & events
+    - title: Dynamic Fine Calculation
+      year: 2019
+      description:
+        - C++ prototype for dynamic traffic fine calculation based on violation history
+        - Demonstrated fairness through penalty scaling logic
