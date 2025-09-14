@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"p.":
+  - firstname: ["Kanaka Raju"]
+    url: https://scholar.google.com/citations?user=Qz5vU1YAAAAJ&hl=en
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"raghavan":
+  - firstname: ["G.", "Raghavan", "G. Raghavan", "Raghavan G."]
+    url: https://sqtdiat.in/faculty/dr-g-raghavan/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"patra":
+  - firstname: ["Patra", "Ashish", "Ashish Kumar", "Ashish K.", "A. K. Patra"]
+    url: https://www.linkedin.com/in/ashish-kumar-patra-555987201/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"anand":
+  - firstname: ["Anand", "Chinmay"]
+    url: https://www.linkedin.com/in/anand-chinmay/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"ghevade":
+  - firstname: ["Ghevade", "Vikas", "Vikas Dattatraya", "Vikas D.", "V. D. Ghevade"]
+    url: https://www.linkedin.com/in/vikas-ghevade-5b3606184/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"bhat":
+  - firstname: ["Bhat", "Ruchika"]
+    url: https://scholar.google.com/citations?user=ZSV9QwoAAAAJ&hl=en
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"jaiganesh":
+  - firstname: ["Jaiganesh", "G. Jaiganesh"]
+    url: https://scholar.google.com/citations?user=o3CS_5cAAAAJ&hl=en
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"chouhan":
+  - firstname: ["Chouhan", "Shubham"]
+    url: https://www.linkedin.com/in/shubham-chouhan-0531992a7/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"rao":
+  - firstname: ["Rao", "B. Bhaskara", "Bhaskara"]
+    url: https://www.gitam.edu/faculty/boddu-bhaskara-rao
