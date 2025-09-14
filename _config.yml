@@ -271,7 +271,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [K. S. V]
+  last_name: [K. S. V.]
   first_name: [Anurag]
 
   style: apa
