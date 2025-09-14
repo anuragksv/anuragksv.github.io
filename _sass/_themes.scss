@@ -4,14 +4,19 @@
 
 @use "sass:color";
 
+$grey-base: #808080; // neutral grey
+
+// Make it darker for strong contrast on white background
+$grey-color: color.scale($grey-base, $lightness: -40%);
+
 :root {
   color-scheme: light;
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$grey-color};
+  --global-hover-color: #{$black-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};

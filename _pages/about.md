@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Seeker ⇄ Builder · Quantum Technologies · Product Development · AI Automation
+subtitle: Quantum Technologies · Product Development · AI Automation
 
 profile:
   align: right
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey, thanks for stopping by!
+Hey, thanks for stopping by! 👋
 
 I’m a technology enthusiast passionate about creating solutions where innovation meets real-world impact. My work spans quantum computing, high-performance computing, and artificial intelligence, blending cutting-edge research with practical product development.
 
