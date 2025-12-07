@@ -55,6 +55,14 @@
 - title: Publications
   type: time_table
   contents:
+    - title: "Resource Estimation for VQE on Small Molecules: Impact of Fermion Mappings and Hamiltonian Reductions"
+      institution: arXiv (Preprint)
+      year: Dec 2025
+      description: https://doi.org/10.48550/arXiv.2512.01605
+    - title: Quantum Simulation of Ligand-like Molecules through Sample-based Quantum Diagonalization in Density Matrix Embedding Framework
+      institution: arXiv (Preprint)
+      year: Nov 2025
+      description: https://doi.org/10.48550/arXiv.2511.22158
     - title: "Survey of Quantum Algorithms: Foundations, Frameworks and Applications"
       institution: Authorea (Preprint)
       year: Nov 2025
