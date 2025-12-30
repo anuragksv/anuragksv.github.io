@@ -91,6 +91,13 @@
   ],
   "publications": [
     {
+      "name": "A Polylogarithmic-Time Quantum Algorithm for the Laplace Transform",
+      "publisher": "Preprint: arXiv",
+      "releaseDate": "2025-12",
+      "url": "https://doi.org/10.48550/arXiv.2512.17980",
+      "summary": ""
+    },
+    {
       "name": "Resource Estimation for VQE on Small Molecules: Impact of Fermion Mappings and Hamiltonian Reductions",
       "publisher": "Preprint: arXiv",
       "releaseDate": "2025-12",
