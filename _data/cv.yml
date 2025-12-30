@@ -55,6 +55,10 @@
 - title: Publications
   type: time_table
   contents:
+    - title: "A Polylogarithmic-Time Quantum Algorithm for the Laplace Transform"
+      institution: arXiv (Preprint)
+      year: Dec 2025
+      description: https://doi.org/10.48550/arXiv.2512.17980
     - title: "Resource Estimation for VQE on Small Molecules: Impact of Fermion Mappings and Hamiltonian Reductions"
       institution: arXiv (Preprint)
       year: Dec 2025

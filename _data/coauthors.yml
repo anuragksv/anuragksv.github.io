@@ -4,11 +4,15 @@
 
 "raghavan":
   - firstname: ["G.", "Raghavan", "G. Raghavan", "Raghavan G."]
-    url: https://sqtdiat.in/faculty/dr-g-raghavan/
+    url: https://www.researchgate.net/profile/Gopalan-Raghavan-2
+
+"singh":
+  - firstname: ["Singh", "Akash Kumar"]
+    url: https://www.akashkumarsingh.com/
 
 "patra":
   - firstname: ["Patra", "Ashish", "Ashish Kumar", "Ashish K.", "A. K. Patra"]
-    url: https://www.linkedin.com/in/ashish-kumar-patra-555987201/
+    url: https://scholar.google.com/citations?user=YP4AONQAAAAJ&hl=en
 
 "anand":
   - firstname: ["Anand", "Chinmay"]
@@ -16,7 +20,7 @@
 
 "ghevade":
   - firstname: ["Ghevade", "Vikas", "Vikas Dattatraya", "Vikas D.", "V. D. Ghevade"]
-    url: https://www.linkedin.com/in/vikas-ghevade-5b3606184/
+    url: https://scholar.google.com/citations?user=3fMpoTQAAAAJ&hl=en
 
 "bhat":
   - firstname: ["Bhat", "Ruchika"]
