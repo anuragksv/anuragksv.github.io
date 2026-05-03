@@ -1,4 +1,69 @@
+@article{ksv2026ftqm,
+  selected={true},
+  bibtex_show = {true},
+  abbr = {J. Comput. Chem.},
+  author = {K. S. V., Anurag and Patra, Ashish Kumar and Ghevade, Vikas Dattatraya and P., Sai Shankar and Bhat, Ruchika and V., Raghavendra and Maitra, Rahul and G., Jaiganesh},
+  title = {Resource Estimation for VQE on Small Molecules: Impact of Fermion Mappings and Hamiltonian Reductions},
+  journal = {Journal of Computational Chemistry},
+  publisher = {Wiley},
+  arxiv = {2512.01605},
+  volume = {47},
+  number = {11},
+  pages = {e70379},
+  keywords = {fermion-to-qubit mapping, Hamiltonian reduction, quantum algorithms, quantum computing, resource estimation, UCCSD, VQE},
+  doi = {10.1002/jcc.70379},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.70379},
+  urldate = {2026-05-01},
+  pdf = {2512.01605v2.pdf},
+  month = {April},
+  year = {2026},
+  note = {Journal Article},
+  preview = {res-est.png},
+  abstract = {Accurate determination of ground-state energies for molecules remains a challenge in quantum chemistry and a cornerstone for progress in fields such as drug discovery and materials design. The Variational Quantum Eigensolver (VQE) represents a leading hybrid quantum-classical paradigm for addressing this challenge; however, its widespread realization is limited by noise and the restricted scalability of current quantum hardware. Achieving efficient simulations on Noisy Intermediate-Scale Quantum (NISQ) devices and forthcoming Fault-Tolerant Application-Scalable Quantum (FASQ) systems demands a detailed understanding of how computational resources scale with molecular complexity and fermion-to-qubit encoding schemes. In this work, resource requirements for VQE implementations employing the Unitary Coupled Cluster Singles and Doubles (UCCSD) ansatz are systematically analyzed. The molecular Hamiltonian is formulated in second quantization and mapped to qubit operators through the Jordan–Wigner (JW), Bravyi–Kitaev (BK), and Parity (Pa) transformations. Hamiltonian reduction strategies, including Z2 tapering and frozen-core approximations, are examined to assess their effect on quantum resource scaling. The analysis reveals that appropriate transformations, when combined with symmetry-based reductions, can substantially reduce qubit counts by up to ≈50% and quantum gate counts by up to ≈27.5× and Hamiltonian Pauli string counts by up to ≈2.75×, relative to the corresponding unreduced Hamiltonian representations within the same active-space configuration for the representative set of molecular systems under study. These findings provide practical circuit-level insights for executing chemically relevant simulations on NISQ hardware, while establishing physical-resource baselines that may inform future logical-level analyses targeting FASQ systems.}
+}
+
+@article{ksv2026iqm,
+  selected={true},
+  bibtex_show = {true},
+  abbr = {arXiv},
+  author = {K. S. V.*, Anurag and Patra*, Ashish Kumar and Mukherjee, Manas and Shukla, Alok and P., Sai Shankar and Bhat, Ruchika and T. S. L., Radhika and G., Jaiganesh},
+  title = {Towards Chemically Accurate and Scalable Quantum Simulations on IQM Quantum Hardware: A Quantum-HPC Hybrid Approach},
+  arxiv = {2604.01983},
+  doi = {10.48550/arXiv.2604.01983},
+  url = {https://doi.org/10.48550/arXiv.2604.01983},
+  pdf = {2604.01983v1.pdf},
+  urldate = {2026-04-02},
+  month = {April},
+  year = {2026},
+  journal = {arXiv},
+  publisher = {arXiv},
+  note = {Preprint},
+  annotation={* Contributed equally to the work},
+  preview = {iqm.png},
+  abstract = {We present a large-scale experimental study of quantum-computing-based molecular simulation carried out on IQM's Sirius 24-qubit superconducting processor, utilizing up to 16 operational qubits. The work employs Sample-based Quantum Diagonalization (SQD) together with the Local Unitary Cluster Jastrow (LUCJ) ansatz to estimate ground-state energies for a set of benchmark molecules, including H2, LiH, BeH2, H2O, and NH3. In addition, we introduce a Linear-CNOT variant of the Unitary Coupled-Cluster Singles and Doubles (LCNot-UCCSD) ansatz within the SQD workflow, trading higher circuit depth for reduced classical preprocessing. A comparison between these ansätze is provided, clarifying their respective strengths, limitations, and suitability for near-term quantum hardware. We further explore potential energy landscapes through 1D scans for H2 and HeH+ using both STO-3G and 6-31G basis sets, and for LiH and BeH2 in STO-3G. Extending beyond this, we demonstrate the experimental construction of a full 2D potential energy surface for the water molecule on quantum hardware, mapped over a 32 × 32 grid in bond length and bond angle. To move beyond small benchmark systems, we combine SQD(LUCJ) with Density Matrix Embedding Theory (DMET) to compute active-space energies for a set of ligand-like molecules, as well as the pharmacologically relevant amantadine system. Across all studies, the majority of quantum-computed energies agree with reference FCI results, as well as with DMET-CASCI energies for embedded systems, to within chemical accuracy for the chosen basis sets. These results demonstrate the reliability of sample-based diagonalization approaches and underscore the potential of hybrid embedding strategies for extending quantum simulations to increasingly complex molecular systems, while also highlighting their practicality on current IQM quantum hardware.}
+}
+
+@INPROCEEDINGS{ksv2026qrng,
+  selected={false},
+  bibtex_show = {true},
+  abbr = {Proc. SPIE},
+  author = {K. S. V., Anurag and Chouhan, Shubham and Srinivasan, K. and Raghavan, G. and P., Kanaka Raju},
+  title = {Engineering a Phase-Noise-Based Quantum Random Number Generator for Real-Time Secure Applications: Design, Validation, and Scalability},
+  booktitle = {Proc. SPIE 14168, Sixth International Conference on Optical and Wireless Technologies (OWT 2025)},
+  year = {2026},
+  month = {March},
+  pages = {141682I},
+  doi = {10.1117/12.3108280},
+  url = {https://doi.org/10.1117/12.3108280},
+  arxiv = {2604.00741},
+  note = {Conference Paper},
+  preview = {qrng-spie.png},
+  pdf = {2604.00741v1.pdf},
+  abstract = {This work presents the end-to-end development of a high-speed, phase-noise-based quantum random number generator (QRNG) leveraging spontaneous emission in a single-frequency laser. Using a self-heterodyne measurement setup with a semiconductor laser operated near threshold and a fiber delay line, a raw data generation rate of 2.0 Gbps is achieved. Post-processing using an in-house Toeplitz Strong Extractor ensures uniform randomness, validated using NIST and Diehard test suites. The system achieves a post-processed rate of 1.0 Gbps and reaches TRL 7, approaching TRL 8, making it suitable for real-time secure applications.}
+}
+
 @article{singh2025qlt,
+  selected={false},
   bibtex_show = {true},
   abbr = {arXiv},
   author = {Singh, Akash Kumar and Patra, Ashish Kumar and K. S. V., Anurag and P., Sai Shankar and Bhat, Ruchika and G., Jaiganesh},
@@ -6,7 +71,7 @@
   arxiv = {2512.17980},
   doi = {10.48550/arXiv.2512.17980},
   url = {https://doi.org/10.48550/arXiv.2512.17980},
-  pdf = {2512.17980v1.pdf},
+  pdf = {2512.17980v2.pdf},
   urldate = {2025-12-19},
   month = {December},
   year = {2025},
@@ -17,26 +82,8 @@
   abstract = {We introduce a quantum algorithm to perform the Laplace transform on quantum computers. Already, the quantum Fourier transform (QFT) is the cornerstone of many quantum algorithms, but the Laplace transform or its discrete version has not seen any efficient implementation on quantum computers due to its dissipative nature and hence non-unitary dynamics. However, a recent work has shown an efficient implementation for certain cases on quantum computers using the Taylor series. Unlike previous work , our work provides a completely different algorithm for doing Laplace Transform using Quantum Eigenvalue Transformation and Lap-LCHS, very efficiently at points which form an arithmetic progression. Our algorithm can implement N × N discrete Laplace transform in gate complexity that grows as O((log N)^3), assuming the efficient state preparation, where N = 2^n and n is the number of qubits, which is a superpolynomial speedup in number of gates over the best classical counterpart that has complexity O(N log N) for the same cases. Also, the circuit width grows as O(log N). Quantum Laplace Transform (QLT) may enable new Quantum algorithms for cases like solving differential equations in the Laplace domain, developing an inverse Laplace transform algorithm on quantum computers, imaginary time evolution in the resolvent domain for calculating ground state energy, and spectral estimation of non-Hermitian matrices.}
 }
 
-@article{ksv2025resest,
-  bibtex_show = {true},
-  abbr = {arXiv},
-  author = {K. S. V., Anurag and Patra, Ashish Kumar and Ghevade, Vikas Dattatraya and P., Sai Shankar and Bhat, Ruchika and V., Raghavendra and Maitra, Rahul and G., Jaiganesh},
-  title = {Resource Estimation for VQE on Small Molecules: Impact of Fermion Mappings and Hamiltonian Reductions},
-  arxiv = {2512.01605},
-  doi = {10.48550/arXiv.2512.01605},
-  url = {https://doi.org/10.48550/arXiv.2512.01605},
-  pdf = {2512.01605v1.pdf},
-  urldate = {2025-12-01},
-  month = {December},
-  year = {2025},
-  journal = {arXiv},
-  publisher = {arXiv},
-  note = {Preprint},
-  preview = {res-est.png},
-  abstract = {Accurate determination of ground-state energies for molecules remains a challenge in quantum chemistry and a cornerstone for progress in fields such as drug discovery and materials design. The Variational Quantum Eigensolver (VQE) represents a leading hybrid quantum-classical paradigm for addressing this challenge; however, its widespread realization is limited by noise and the restricted scalability of current quantum hardware. Achieving efficient simulations on Noisy Intermediate-Scale Quantum (NISQ) devices and forthcoming Fault-Tolerant Application-Scalable Quantum (FASQ) systems demands a detailed understanding of how computational resources scale with molecular complexity and fermion-to-qubit encoding schemes. In this study, resource requirements for VQE implementations employing the Unitary Coupled Cluster Singles and Doubles (UCCSD) ansatz are systematically analyzed. The molecular Hamiltonian is formulated in second quantization and mapped to qubit operators through the Jordan-Wigner (JW), Bravyi-Kitaev (BK), and Parity (Pa) transformations. Hamiltonian reduction strategies, including Z2 tapering and frozen-core approximations, are examined to assess their effect on quantum resource scaling. The analysis reveals that appropriate transformations, when combined with symmetry-based reductions, can substantially reduce qubit counts by up to ≈50% and quantum gate counts by up to ≈45× for the representative set of molecular systems under study. This provides practical insights for executing chemically relevant simulations on NISQ and FASQ hardware.}
-}
-
 @article{patra2025dmetsqdibm,
+  selected={false},
   bibtex_show = {true},
   abbr = {arXiv},
   author = {Patra, Ashish Kumar and K. S. V., Anurag and  P., Sai Shankar and Bhat, Ruchika and V., Raghavendra and Maitra, Rahul and G., Jaiganesh},
@@ -56,6 +103,7 @@
 }
 
 @article{patra2025qalgo,
+  selected={false},
   bibtex_show = {true},
   abbr = {Authorea},
   author = {Patra, Ashish Kumar and K. S. V., Anurag and Ghevade, Vikas Dattatraya and P., Sai Shankar and Bhat, Ruchika and Saxena, Amit and V., Raghavendra and G., Jaiganesh},
@@ -76,6 +124,7 @@ and highlights significant advances. The study also identifies emerging trends a
 }
 
 @article{ksv2025pes,
+  selected={false},
   bibtex_show = {true},
   abbr = {Authorea},
   author = {K. S. V., Anurag and Patra, Ashish Kumar and Anand, Chinmay and  Ghevade, Vikas Dattatraya and  V., Raghavendra and Bhat, Ruchika and G., Jaiganesh },
@@ -94,6 +143,7 @@ and highlights significant advances. The study also identifies emerging trends a
 }
 
 @INPROCEEDINGS{chouhan2024fpgaTSE,
+  selected={false},
   bibtex_show = {true},
   abbr={INDISCON},
   author={Chouhan*, Shubham and K. S. V.*, Anurag and Raghavan, G. and P., Kanaka Raju},
@@ -111,12 +161,13 @@ and highlights significant advances. The study also identifies emerging trends a
   annotation={* Contributed equally to the work},
   note = {Conference Paper},
   preview = {fpga-tse.png},
+  pdf = {2505.02868v1.pdf},
   abstract = {Quantum Random Number Generators (QRNGs) serve as high-entropy sources for Quantum Key Distribution (QKD) systems. However, the raw data from these quantum sources require post-processing to achieve a nearly uniform distribution. This work presents a state-of-the-art implementation of the Toeplitz Strong Extractor on an FPGA, achieving a benchmark extraction speed of 26.57 Gbps. A detailed implementation flow of the post-processing on the FPGA is provided, along with the execution speeds obtained for different randomness extraction ratios. Raw data from an in-house phase noise-based QRNG is processed on the FPGA using this implementation, and the output is validated using the NIST STS 2.1.2 statistical randomness test suite.}
   }
 
 @article{ksv2024gpuTSE,
+  selected={false},
   bibtex_show = {true},
-  selected={true},
   abbr={Phys. Scr.},
   author = {K. S. V., Anurag and Raghavan, G. and P., Kanaka Raju},
   pages = {075115},
@@ -129,12 +180,13 @@ and highlights significant advances. The study also identifies emerging trends a
   month = {June},
   year = {2024},
   journal = {Physica Scripta},
-  note = {Journal Paper},
+  note = {Journal Article},
   preview = {gpu-tse.png},
   abstract = {Random Number Generators (RNGs) are devices whose utility spans from cryptography to gambling. Depending on the source of the random seed, RNGs are classified as Pseudo-Random Number Generators (PRNGs), which are based on mathematical algorithms, True Random Number Generators (TRNGs) sourced through seemingly random physical processes, and finally, Quantum Random Number Generators (QRNGs) which harness the intrinsic randomness of measured outcomes of quantum states. To ensure that the output of a QRNG is private and nearly uniform, the raw data undergoes a strong extraction process such as Toeplitz or Trevisan Hashing. The extraction process needs to be extremely efficient to achieve high-speed random number generation. The present work demonstrates state-of-the-art methods for performing information-theoretically provable randomness extraction using variations of the Toeplitz Hashing algorithm. These algorithms are implemented on various hardware for comprehensive analysis. Subsequently, these methods are applied to two raw data sets from a PRNG source and a quantum source. A new benchmark of 19.5 Gbps for Randomness Extraction using the Fast Fourier Transform-based Toeplitz Strong Extractor is demonstrated in this work. The implementation of the algorithm on a GPU-based system demonstrates notably enhanced speed, marking a significant leap beyond the existing state-of-the-art implementations.}
 }
 
 @inproceedings{ksv2024qrng,
+  selected={false},
   bibtex_show = {true},
   abbr = {ICQTA-24},
   author = {K. S. V., Anurag and P., Kanaka Raju and Raghavan, G.},
@@ -153,6 +205,7 @@ and highlights significant advances. The study also identifies emerging trends a
 }
 
 @inproceedings{ksv2024pp,
+  selected={false},
   bibtex_show = {true},
   abbr = {ICQTA-24},
   author = {K. S. V., Anurag and Raghavan, G. and P., Kanaka Raju},
@@ -171,6 +224,7 @@ and highlights significant advances. The study also identifies emerging trends a
 }
 
 @article{ksv2022airpollution,
+  selected={false},
   bibtex_show = {true},
   abbr = {IJITEE},
   author = {K. S. V., Anurag and Rao, B. Bhaskara},
@@ -185,7 +239,7 @@ and highlights significant advances. The study also identifies emerging trends a
   month = {October},
   year = {2022},
   journal = {International Journal of Innovative Technology and Exploring Engineering},
-  note = {Journal Paper},
+  note = {Journal Article},
   preview = {ap.png},
   abstract = {This study aimed to check the temporal variations in Air Pollution levels using Air Quality Index in major cities spanning geographically across India and understand the correlation between the severity of Covid-19 and the concentrations of the six key air pollutants. The study considered a tenure between May-June 2020 when there was a drastic shift in human behavior due to Unlock period in India. It employed Spearman’s Rank Correlation Coefficient, which better understands monotonic function association between two variables for correlation. The study successfully established statistical evidence of improvement in the air quality of 29% (average) in May and June of 2020 compared to 2019 in the cities under study. A significant correlation was also established between air pollution and covid-19 across various cities in India, with Delhi and Mumbai exhibiting a weak negative correlation. At the same time, Hyderabad and Bengaluru showed a moderate negative correlation. On the other hand, the city of Chennai implied a strong positive correlation between air pollution and Covid-19.}
 }

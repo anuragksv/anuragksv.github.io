@@ -2,19 +2,20 @@
 layout: about
 title: About
 permalink: /
-subtitle: Quantum Technologies · Product Development · AI Automation
+subtitle: Applied Quantum Systems · Hybrid Quantum-Classical Workflows
 
 profile:
   align: right
-  image: 
+  image: profile.png
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: >
+    Quantum Analyst (Founding Team), Qclairvoyance Quantum Labs, India.
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -24,14 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey, thanks for stopping by! 👋
+Hi, thanks for stopping by.
 
-I’m a technology enthusiast passionate about creating solutions where innovation meets real-world impact. My work spans quantum computing, high-performance computing, and artificial intelligence, blending cutting-edge research with practical product development.
+I work on quantum computing, mainly at the intersection of computational chemistry and real-world applications like drug discovery. Most of my work involves building hybrid quantum–classical workflows and running them on actual hardware to understand what holds up beyond theory.
 
-I’ve had the privilege of working in academia and industry, gaining hands-on experience in quantum communication and sensing experiments, developing quantum algorithms to accelerate drug discovery, integrating HPC infrastructure with quantum systems for large-scale applications, and building scalable and reliable software solutions.
+At Qclairvoyance, I develop quantum algorithms and software systems for molecular simulation, integrating them with classical methods and HPC infrastructure. This includes working with platforms like IBM and IQM, benchmarking performance, and translating these systems into workflows that can be used in practice.
 
-I thrive on rapid prototyping and a hands-on approach to problem-solving. Currently, I’m exploring how quantum computing and AI automation can deliver transformative value to industries.
+My background spans both experimental and computational work — from quantum communication and optics experiments to GPU-accelerated simulation and scalable software systems. I tend to approach problems hands-on, whether that’s prototyping new ideas, optimizing performance, or building end-to-end systems.
 
-Beyond research and technology, I’ve taken on leadership roles, contributed to sports and cultural organizations, and developed interests in sales, finance, and applying technology to optimize processes in industries like healthcare and logistics.
-
-When I’m not coding or experimenting with quantum optics, you’ll find me on a basketball court, working out, or writing.
+More broadly, I’m interested in how quantum computing moves from research into practical use. Outside of work, I spend time playing basketball, working out, and writing.
