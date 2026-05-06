@@ -1,0 +1,88 @@
+{
+      "publications": [
+    {
+      "name": "Resource Estimation for VQE on Small Molecules: Impact of Fermion Mappings and Hamiltonian Reductions",
+      "publisher": "Journal Article: Journal of Computational Chemistry",
+      "releaseDate": "2026-04",
+      "url": "https://doi.org/10.1002/jcc.70379",
+      "summary": ""
+    },
+    {
+      "name": "Towards Chemically Accurate and Scalable Quantum Simulations on IQM Quantum Hardware: A Quantum-HPC Hybrid Approach",
+      "publisher": "Preprint: arXiv",
+      "releaseDate": "2026-04",
+      "url": "https://doi.org/10.48550/arXiv.2604.01983",
+      "summary": ""
+    },
+    {
+      "name": "Engineering a Phase-Noise-Based Quantum Random Number Generator for Real-Time Secure Applications: Design, Validation, and Scalability",
+      "publisher": "Conference Paper: Proc. SPIE (OWT 2025)",
+      "releaseDate": "2026-03",
+      "url": "https://doi.org/10.1117/12.3108280",
+      "summary": ""
+    },
+    {
+      "name": "A Polylogarithmic-Time Quantum Algorithm for the Laplace Transform",
+      "publisher": "Preprint: arXiv",
+      "releaseDate": "2025-12",
+      "url": "https://doi.org/10.48550/arXiv.2512.17980",
+      "summary": ""
+    },
+    {
+      "name": "Quantum Simulation of Ligand-like Molecules through Sample-based Quantum Diagonalization in Density Matrix Embedding Framework",
+      "publisher": "Preprint: arXiv",
+      "releaseDate": "2025-11",
+      "url": "https://doi.org/10.48550/arXiv.2511.22158",
+      "summary": ""
+    },
+    {
+      "name": "Survey of Quantum Algorithms: Foundations, Frameworks and Applications",
+      "publisher": "Preprint: Authorea",
+      "releaseDate": "2025-11",
+      "url": "https://doi.org/10.22541/au.176341037.72812424/v1",
+      "summary": ""
+    },
+    {
+      "name": "Potential Energy Surface Scan of n-Butane Using Various Quantum Chemistry Software",
+      "publisher": "Preprint: Authorea",
+      "releaseDate": "2025-07",
+      "url": "https://doi.org/10.22541/au.174624847.78353339/v2",
+      "summary": ""
+    },
+    {
+      "name": "FPGA-based Toeplitz Strong Extractor for Quantum Random Number Generators",
+      "publisher": "Conference Paper: IEEE Explore (INDISCON)",
+      "releaseDate": "2024-08",
+      "url": "https://doi.org/10.1109/INDISCON62179.2024.10744392",
+      "summary": ""
+    },
+    {
+      "name": "High-efficiency implementation of Toeplitz Strong Extractor for PRNG and QRNG output on CPU/GPU hardware systems",
+      "publisher": "Journal Article: Physica Scripta",
+      "releaseDate": "2024-06",
+      "url": "https://doi.org/10.1088/1402-4896/ad587f",
+      "summary": ""
+    },
+    {
+      "name": "Development of a High-Speed Quantum Random Number Generator Harvesting Quantum Phase Fluctuations",
+      "publisher": "Poster Presentation: ICQTA-24",
+      "releaseDate": "2024-02",
+      "url": "http://doi.org/10.13140/RG.2.2.22320.98569",
+      "summary": ""
+    },
+    {
+      "name": "Implementation and Evaluation of Toeplitz Strong Extractor for Post-Processing of QRNGs on Various Hardware Systems",
+      "publisher": "Poster Presentation: ICQTA-24",
+      "releaseDate": "2024-02",
+      "url": "http://doi.org/10.13140/RG.2.2.33226.17606",
+      "summary": ""
+    },
+    {
+      "name": "Temporal and Correlational Analysis of Air Pollution and Covid-19 Across Major Metropolis in India",
+      "publisher": "Journal Article: IJITEE",
+      "releaseDate": "2022-10",
+      "url": "http://doi.org/10.35940/ijitee.K9277.10111122",
+      "summary": ""
+    }
+  ]
+}
