@@ -402,8 +402,11 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-on-resource-estimation-for-vqe-on-small-molecules-impact-of-fermion-mappings-and-hamiltonian-reductions-was-published-in-the-journal-of-computational-chemistry-an-accepted-version-is-available-on-arxiv",
           title: 'Our work on Resource Estimation for VQE on Small Molecules: Impact of Fermion...',
           description: "",
-          section: "News",},{id: "news-shared-our-preprint-bridging-the-nisq-and-fault-tolerant-regimes-generative-ml-assisted-quantum-selected-ci-for-molecular-simulations-on-arxiv-advancing-sampling-based-quantum-algorithms-particularly-qsci-rbm-towards-fault-tolerant-quantum-assisted-molecular-simulations",
-          title: 'Shared our preprint Bridging the NISQ and Fault-Tolerant Regimes: Generative-ML-Assisted Quantum Selected CI...',
+          section: "News",},{id: "news-shared-our-preprint-machine-learned-compact-subspace-generation-for-quantum-selected-configuration-interaction-within-density-matrix-embedding-framework-on-arxiv-where-we-make-qsci-more-efficient-using-rbm-and-integrate-with-dmet-to-simulate-a-protein-ligand-complex",
+          title: 'Shared our preprint Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within...',
+          description: "",
+          section: "News",},{id: "news-shared-our-preprint-an-analytically-trained-variational-surrogate-for-quantum-phase-estimation-on-nisq-hardware-on-arxiv-for-recovering-the-ground-state-energy-of-molecules",
+          title: 'Shared our preprint An Analytically Trained Variational Surrogate for Quantum Phase Estimation on...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -491,6 +494,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=gBTLj5QAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/anurag_ksv", "_blank");
         },
       },{
       id: 'light-theme',
