@@ -9,7 +9,7 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    Quantum Analyst (Founding Team), Qclairvoyance Quantum Labs, India.
+    Sr. Software Engineer (Quantum Research), Wipro Innovation Network, India.
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,10 +27,10 @@ latest_posts:
 
 Hi, thanks for stopping by.
 
-I work on quantum computing, mainly at the intersection of computational chemistry and real-world applications like drug discovery. Most of my work involves building hybrid quantum–classical workflows and running them on actual hardware to understand what holds up beyond theory.
+I work on quantum computing, building hybrid quantum–classical workflows and running them on actual hardware to understand what holds up beyond theory.
 
-At Qclairvoyance, I develop quantum algorithms and software systems for molecular simulation, integrating them with classical methods and HPC infrastructure. This includes working with platforms like IBM and IQM, benchmarking performance, and translating these systems into workflows that can be used in practice.
+At Wipro Innovation Network, in the CTO Office, I focus on quantum computing research and engineering. Previously, at QClairvoyance, I developed quantum algorithms and software systems for molecular simulation, integrating them with classical methods and HPC infrastructure. This included working with platforms like IBM and IQM, benchmarking performance, and translating research into practical workflows.
 
-My background spans both experimental and computational work — from quantum communication and optics experiments to GPU-accelerated simulation and scalable software systems. I tend to approach problems hands-on, whether that’s prototyping new ideas, optimizing performance, or building end-to-end systems.
+My background spans both experimental and computational work, from quantum communication and optics experiments to GPU-accelerated simulation and high-performance software systems. I take a hands-on approach to problems, whether that means prototyping new ideas, optimizing performance, or building end-to-end systems.
 
 More broadly, I’m interested in how quantum computing moves from research into practical use. Outside of work, I spend time playing basketball, working out, and writing.
