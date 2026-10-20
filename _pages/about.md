@@ -9,7 +9,7 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    Sr. Software Engineer (Quantum Research), Wipro Innovation Network, India.
+    Sr. Software Engineer (Quantum Research), Wipro, India.
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

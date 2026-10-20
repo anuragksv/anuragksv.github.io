@@ -1,3 +1,27 @@
+@article{patra2025dmetsqdibm,
+  selected={true},
+  bibtex_show = {true},
+  abbr = {J. Chem. Phys.},
+  author = {Patra, Ashish Kumar and K. S. V., Anurag and P., Sai Shankar and Bhat, Ruchika and V., Raghavendra and Maitra, Rahul and G., Jaiganesh},
+  title = {Quantum Simulation of Ligand-like Molecules Through Sample-based Quantum Diagonalization in Density Matrix Embedding Framework},
+  journal = {The Journal of Chemical Physics},
+  publisher = {AIP Publishing},
+  arxiv = {2511.22158},
+  volume = {165},
+  number = {15},
+  pages = {154108},
+  issn = {0021-9606},
+  doi = {10.1063/5.0338676},
+  url = {https://pubs.aip.org/aip/jcp/article-abstract/165/15/154108/3406726/Quantum-simulation-of-ligand-like-molecules},
+  urldate = {2026-10-20},
+  pdf = {2511.22158v4.pdf},
+  month = {Oct},
+  year = {2026},
+  note = {Journal Article (Preprint: Nov 2025)},
+  preview = {dmet-sqd.png},
+  abstract = {The accurate treatment of electron correlation in extended molecular systems remains computationally challenging using classical electronic structure methods. Hybrid quantum–classical algorithms offer a potential route to overcome these limitations; however, their practical deployment on existing quantum computers requires strategies that both reduce problem size and mitigate hardware noise. In this work, we investigate ground-state energy calculations of ligand-like molecules using Sample-based Quantum Diagonalization (SQD) within the Density Matrix Embedding Theory (DMET) framework, focusing on low-symmetry systems with diverse bonding motifs that exhibit subsystem-dependent variations in fragment–environment entanglement. These entanglement-based variations directly influence bath orbital construction, impurity sizes, and the structure of the embedded Hamiltonians, posing nontrivial challenges for both embedding and quantum sampling. By combining DMET fragmentation with SQD-based construction of reduced configuration spaces through quantum sampling and iterative configuration recovery, we perform quantum simulations on IBM’s Eagle R3 (ibm\_sherbrooke) and IBM’s Heron R3 (ibm\_boston) superconducting quantum hardware, thereby showing that the entanglement structure across embedding subsystems plays a central role in determining the efficiency and accuracy of the simulations. Despite these complexities, we show that the DMET-SQD framework yields ground-state energies in strong agreement with DMET-full configuration interaction benchmarks, achieving chemical accuracy (1 kcal/mol) across all systems studied. These results demonstrate that SQD-based quantum simulations can be robustly extended to low-symmetry, chemically realistic, industry relevant molecules and highlight the importance of entanglement-aware embedding strategies for scalable quantum electronic structure calculations.}
+}
+
 @article{kundu2026qpevqc,
   selected = {false},
   bibtex_show = {true},
@@ -57,26 +81,6 @@
   annotation={* Contributed equally to the work},
   preview = {iqm.png},
   abstract = {We present a large-scale experimental study of quantum-computing-based molecular simulation carried out on IQM's Sirius 24-qubit superconducting processor, utilizing up to 16 operational qubits. The work employs Sample-based Quantum Diagonalization (SQD) together with the Local Unitary Cluster Jastrow (LUCJ) ansatz to estimate ground-state energies for a set of benchmark molecules, including H2, LiH, BeH2, H2O, and NH3. In addition, we introduce a Linear-CNOT variant of the Unitary Coupled-Cluster Singles and Doubles (LCNot-UCCSD) ansatz within the SQD workflow, trading higher circuit depth for reduced classical preprocessing. A comparison between these ansätze is provided, clarifying their respective strengths, limitations, and suitability for near-term quantum hardware. We further explore potential energy landscapes through 1D scans for H2 and HeH+ using both STO-3G and 6-31G basis sets, and for LiH and BeH2 in STO-3G. Extending beyond this, we demonstrate the experimental construction of a full 2D potential energy surface for the water molecule on quantum hardware, mapped over a 32 × 32 grid in bond length and bond angle. To move beyond small benchmark systems, we combine SQD(LUCJ) with Density Matrix Embedding Theory (DMET) to compute active-space energies for a set of ligand-like molecules, as well as the pharmacologically relevant amantadine system. Across all studies, the majority of quantum-computed energies agree with reference FCI results, as well as with DMET-CASCI energies for embedded systems, to within chemical accuracy for the chosen basis sets. These results demonstrate the reliability of sample-based diagonalization approaches and underscore the potential of hybrid embedding strategies for extending quantum simulations to increasingly complex molecular systems, while also highlighting their practicality on current IQM quantum hardware.}
-}
-
-@article{patra2025dmetsqdibm,
-  selected={false},
-  bibtex_show = {true},
-  abbr = {arXiv},
-  author = {Patra, Ashish Kumar and K. S. V., Anurag and  P., Sai Shankar and Bhat, Ruchika and V., Raghavendra and Maitra, Rahul and G., Jaiganesh},
-  title = {Quantum Simulation of Ligand-like Molecules through Sample-based Quantum Diagonalization in Density Matrix Embedding Framework},
-  arxiv = {2511.22158},
-  doi = {10.48550/arXiv.2511.22158},
-  url = {https://doi.org/10.48550/arXiv.2511.22158},
-  pdf = {2511.22158v4.pdf},
-  urldate = {2025-11-27},
-  month = {July},
-  year = {2026},
-  journal = {arXiv},
-  publisher = {arXiv},
-  note = {Preprint (v1: Nov 2025)},
-  preview = {dmet-sqd.png},
-  abstract = {The accurate treatment of electron correlation in extended molecular systems remains computationally challenging using classical electronic structure methods. Hybrid quantum-classical algorithms offer a potential route to overcome these limitations; however, their practical deployment on existing quantum computers requires strategies that both reduce problem size and mitigate hardware noise. In this work, we investigate ground-state energy calculations of ligand-like molecules using Sample-based Quantum Diagonalization (SQD) within the Density Matrix Embedding Theory (DMET) framework, focusing on low-symmetry systems with diverse bonding motifs that exhibit subsystem-dependent variations in fragment environment entanglement. These entanglement-based variations directly influence bath orbital construction, impurity sizes, and the structure of the embedded Hamiltonians, posing nontrivial challenges for both embedding and quantum sampling. By combining DMET fragmentation with SQD-based construction of reduced configuration spaces through quantum sampling and iterative configuration recovery, we perform quantum simulations on IBM's Eagle R3 (ibm\_sherbrooke) and IBM's Heron R3 (ibm\_boston) superconducting quantum hardware thereby, showing that the entanglement structure across embedding subsystems plays a central role in determining the efficiency and accuracy of the simulations. Despite these complexities, we show that the DMET-SQD framework yields ground-state energies in strong agreement with DMET-FCI benchmarks, achieving chemical accuracy (1 kcal/mol) across all systems studied. These results demonstrate that SQD-based quantum simulations can be robustly extended to low-symmetry, chemically realistic, industry relevant molecules, and highlight the importance of entanglement-aware embedding strategies for scalable quantum electronic structure calculations.}
 }
 
 @article{ksv2026ftqm,
@@ -217,6 +221,7 @@ and highlights significant advances. The study also identifies emerging trends a
   url = {https://doi.org/10.1088/1402-4896/ad587f},
   urldate = {2025-09-14},
   volume = {99},
+  number = {7},
   month = {June},
   year = {2024},
   journal = {Physica Scripta},
