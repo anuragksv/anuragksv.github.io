@@ -417,6 +417,15 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-on-quantum-simulation-of-ligand-like-molecules-through-sample-based-quantum-diagonalization-in-density-matrix-embedding-framework-has-been-published-in-the-journal-of-chemical-physics-an-accepted-version-is-available-on-arxiv",
           title: 'Our work on Quantum Simulation of Ligand-like Molecules Through Sample-based Quantum Diagonalization in...',
           description: "",
+          section: "News",},{id: "news-shared-our-preprint-application-oriented-evaluation-of-cpu-gpu-quantum-simulators-from-foundational-circuits-to-quantum-chemistry-on-arxiv-demonstrating-upto-100x-speed-up-for-gpu-accelerated-double-precision-workloads",
+          title: 'Shared our preprint Application-Oriented Evaluation of CPU/GPU Quantum Simulators: From Foundational Circuits to...',
+          description: "",
+          section: "News",},{id: "news-shared-our-preprint-resource-efficient-sample-based-quantum-simulation-through-fragmentation-and-virtual-partitioning-of-qpu-on-arxiv-introducing-fmo-qvm-hci-hsqd-using-up-to-52-qubits-simulating-a-protein-ligand-complex",
+          title: 'Shared our preprint Resource efficient Sample Based Quantum Simulation through Fragmentation and Virtual...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-toward-chemically-accurate-quantum-simulations-on-quantum-hardware-a-quantum-hpc-hybrid-approach-has-been-published-in-the-journal-of-chemical-physics-an-accepted-version-is-available-on-arxiv",
+          title: 'Our work on Toward chemically accurate quantum simulations on quantum hardware: A quantum-HPC...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -470,18 +479,18 @@ ninja.data = [{
           window.open("mailto:%63%6F%6E%74%61%63%74@%61%6E%75%72%61%67%6B%73%76.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/anuragksv", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/anuragksv", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/anuragksv", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -491,13 +500,6 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0002-8891-3685", "_blank");
         },
       },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/Anurag-K-S-V/", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -505,11 +507,18 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=gBTLj5QAAAAJ", "_blank");
         },
       },{
-        id: 'social-x',
-        title: 'X',
+        id: 'social-scopus',
+        title: 'Scopus',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/anurag_ksv", "_blank");
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=59210275800", "_blank");
+        },
+      },{
+        id: 'social-inspire',
+        title: 'Inspire HEP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://inspirehep.net/authors/2802837", "_blank");
         },
       },{
       id: 'light-theme',
